@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+  }
+  #menu{
+     float: right;
+     font-size: 17px;
+     margin-top: 10px;
+   
+  }
+  
+  #text1{
+    color:#535B6D;
+  }
+  
+  #text1:hover{
+    color:#D54058;
+  }
+  
+  #menu > ul > li {
+      position: relative;
+      float:right;
+      padding: 0 10px;
+      list-style: none;
+      
+  
+    }
+    #menu > ul > li + li:after {
+      content: "";
+      background: #ccc;
+      position: absolute;
+      bottom: 25%;
+      left: 0;
+      height: 50%;
+      width: 1px;
+    }
+  
+  
+  .img1{
+      width: 200px;
+  }
+  
+  .logo{
+    width: 150px;
+  }
+  
