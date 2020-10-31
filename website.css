@@ -42,4 +42,61 @@ body{
   .logo{
     width: 150px;
   }
+
+  .display{
+    margin-right: 12px;
+    list-style: none;
+    color: #b2b3b6;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: -1px;
+    
+    
+  }
+  .display li :hover{
+    color: #c8435a;
+   
+  }
+  .display li{
+    margin-top: 10px;
+  }
+  .display li a{
+    color: #a8a8a8;
+  }
+  .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mobinav{
+    border-bottom: 1px solid #dfdfdf;
+    height: 100px;
+  }
   
+  .brand2{
+    border-bottom: 1px solid #dfdfdf;
+  
+  }
+  
+  .main{
+    background-image: url(https://static.momspresso.com/parenting-images/advertise/header_bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
+  }
+  
+  .text{
+    padding-top: 180px;
+    
+  }
+  
+  .text h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: #535B6D;
+  }
