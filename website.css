@@ -100,3 +100,54 @@ body{
     margin-bottom: 15px;
     color: #535B6D;
   }
+
+  .text h6{
+    letter-spacing: 1.5px;
+    color: #8a8a8a;
+    margin-bottom: 20px;
+  }
+  
+  
+  .text button{
+    background-color: #D54058;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+  }
+  
+  
+  .about p{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    
+    color: #5a5a5a;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .important{
+    font-family: 'Times New Roman', Times, serif;
+    color: #535B6D;
+  }
+  
+  .hr{
+    background-color: #c8435a;
+    height: 5px;
+    width: 80px;
+    border: 0;
+  }
+  .section{
+    margin-top: 20px;
+  }
+  .box{
+    height: 50px;
+    width: 50px;
+    background-color: #F1992C;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+  }
