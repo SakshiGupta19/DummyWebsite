@@ -1,165 +1,190 @@
 body{
-    margin: 0;
+  margin: 0;
   }
-  #menu{
-     float: right;
-     font-size: 17px;
-     margin-top: 10px;
+  
+#menu{
+  float: right;
+  font-size: 17px;
+  margin-top: 10px;
    
-  }
+}
   
-  #text1{
-    color:#535B6D;
-  }
+#text1{
+  color:#535B6D;
+}
   
-  #text1:hover{
-    color:#D54058;
-  }
+#text1:hover{
+  color:#D54058;
+}
   
-  #menu > ul > li {
-      position: relative;
-      float:right;
-      padding: 0 10px;
+#menu > ul > li {
+  position: relative;
+  float:right;
+  padding: 0 10px;
       list-style: none;
       
+}
+    
+#menu > ul > li + li:after {
+  content: "";
+  background: #ccc;
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  height: 50%;
+  width: 1px;
+}
   
-    }
-    #menu > ul > li + li:after {
-      content: "";
-      background: #ccc;
-      position: absolute;
-      bottom: 25%;
-      left: 0;
-      height: 50%;
-      width: 1px;
-    }
   
+.img1{
+  width: 200px;
+}
   
-  .img1{
-      width: 200px;
-  }
-  
-  .logo{
-    width: 150px;
-  }
+.logo{
+  width: 150px;
+}
 
-  .display{
-    margin-right: 12px;
-    list-style: none;
-    color: #b2b3b6;
-    font-weight: bold;
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: -1px;
-    
-    
-  }
-  .display li :hover{
-    color: #c8435a;
-   
-  }
-  .display li{
-    margin-top: 10px;
-  }
-  .display li a{
-    color: #a8a8a8;
-  }
-  .container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px; 
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .mobinav{
-    border-bottom: 1px solid #dfdfdf;
-    height: 100px;
-  }
-  
-  .brand2{
-    border-bottom: 1px solid #dfdfdf;
-  
-  }
-  
-  .main{
-    background-image: url(https://static.momspresso.com/parenting-images/advertise/header_bg.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 600px;
-    background-size: 100%;
-  }
-  
-  .text{
-    padding-top: 180px;
-    
-  }
-  
-  .text h1{
-    font-size: 45px;
-    font-weight: bolder;
-    margin-bottom: 15px;
-    color: #535B6D;
-  }
+.display{
+  margin-right: 12px;
+  list-style: none;
+  color: #b2b3b6;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
 
-  .text h6{
-    letter-spacing: 1.5px;
-    color: #8a8a8a;
-    margin-bottom: 20px;
-  }
+.display li :hover{
+  color: #c8435a;
+}
   
+.display li{
+  margin-top: 10px;
+}
   
-  .text button{
-    background-color: #D54058;
-    padding: 10px 30px;
-    border-radius: 100px;
-    border: none;
-    color: white;
-  }
+.display li a{
+  color: #a8a8a8;
+}
   
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px; 
+  margin-right: auto;
+  margin-left: auto;
+}
   
-  .about p{
-    padding-top: 10px;
-    font-size: 20px;
-    padding-top: 10px;
+.mobinav{
+  border-bottom: 1px solid #dfdfdf;
+  height: 100px;
+}
+  
+.brand2{
+  border-bottom: 1px solid #dfdfdf;
+  
+}
+  
+.main{
+  background-image: url(https://static.momspresso.com/parenting-images/advertise/header_bg.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: 100%;
+}
+  
+.text{
+  padding-top: 180px;
     
-    color: #5a5a5a;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  .important{
-    font-family: 'Times New Roman', Times, serif;
-    color: #535B6D;
-  }
+}
   
-  .hr{
-    background-color: #c8435a;
-    height: 5px;
-    width: 80px;
-    border: 0;
-  }
-  .section{
-    margin-top: 20px;
-  }
-  .box{
-    height: 50px;
-    width: 50px;
-    background-color: #F1992C;
-    color: white;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    float: left;
-    text-align: center;
-    padding-top: 10px;
-    margin-right: 10px;
-  }
+.text h1{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  color: #535B6D;
+}
 
-  span{
-    font-size: 13px;
-  }
+.text h6{
+  letter-spacing: 1.5px;
+  color: #8a8a8a;
+  margin-bottom: 20px;
+}
   
-  .title{
-    color: #5a5a5a;
-    padding-top: 15px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    
-  }
+  
+.text button{
+  background-color: #D54058;
+  padding: 10px 30px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+}
+  
+  
+.about p{
+  padding-top: 10px;
+  font-size: 20px;
+  padding-top: 10px;
+  color: #5a5a5a;
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+.important{
+  font-family: 'Times New Roman', Times, serif;
+  color: #535B6D;
+}
+  
+.hr{
+  background-color: #c8435a;
+  height: 5px;
+  width: 80px;
+  border: 0;
+  
+}
+  
+.section{
+  margin-top: 20px;
+}
+  
+.box{
+  height: 50px;
+  width: 50px;
+  background-color: #F1992C;
+  color: white;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+span{
+  font-size: 13px;
+}
+
+.title{
+  color: #5a5a5a;
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.txt{
+  color: #7c7c7c;
+  font-size: 13px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.pink{
+  background-color: #F24C7B;
+  
+}
+.purple{
+  background-color: #734BEC;
+  
+}
+.blue{
+  background-color: #50E3C2;
+  
+}
