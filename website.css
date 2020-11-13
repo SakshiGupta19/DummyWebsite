@@ -212,3 +212,23 @@ span{
   width: 200px;
   float: left;
 }
+
+.img2{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding: 0;
+}
+
+.img2 > .top {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  float: left;
+  background: url(https://static.momspresso.com/parenting-images/advertise/Momspresso-Studio.jpg?tr=w-400) top center no-repeat;
+  transition: all 3s;
+  
+}
