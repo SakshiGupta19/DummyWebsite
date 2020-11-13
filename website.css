@@ -203,3 +203,12 @@ span{
   margin-top: 25px;
   cursor: pointer;
 }
+
+.mobiright{
+  width: 200px;
+  float: left;
+}
+.left{
+  width: 200px;
+  float: left;
+}
