@@ -240,3 +240,21 @@ span{
 .img2:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
+
+.img3{
+  width: 200px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin-top: 25px;
+}
+.img3 >.top1{
+  width: 200px;
+  height: 350px;
+  position: relative;
+  float: left;
+  background: url(https://static.momspresso.com/parenting-images/advertise/Research-insights-Momspresso-advertise.jpg?tr=h-350) top center no-repeat;
+  transition: all 3s;
+  
+}
