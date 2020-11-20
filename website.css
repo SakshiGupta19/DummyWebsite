@@ -282,5 +282,136 @@ span{
   float: left;
 }
 
+.img4 > .mid{
+  width: 210px;
+  height: 150px;
+  position: relative;
+  background: url(https://static.momspresso.com/parenting-images/advertise/On-ground-activation.jpg?tr=w-300) top center no-repeat;
+  transition: all 3s;
+  
+}
 
+.img4:hover > .mid {
+  transform: scale(1.2,1.2); 
+     
+}
+.img4:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+
+}
+.img5{
+  width: 210px;
+  height: 175px;
+  margin-top: 25px;
+  overflow: hidden;
+  display: block;
+  margin-left: 25px;
+  float: left;
+}
+
+.img5 > .mid1 {
+  width: 210px;
+  height: 175px;
+  position: relative;
+  background: url(https://static.momspresso.com/parenting-images/advertise/Branded-Content%20Advocacy-Momspresso-advertise.jpg?tr=w-300) top center no-repeat;
+  transition: all 3s;
+  
+}
+.img5:hover > .mid1 {
+  transform: scale(1.2,1.2); 
+     
+}
+.img5:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+
+}
+
+.img6{
+  width: 508px;
+  height: 350px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin-left: 60px;
+}
+
+.img6 > .right{
+  width: 508px;
+  height: 350px;
+  position: relative;
+  float: left;
+  background: url(https://static.momspresso.com/parenting-images/advertise/Influencer-marketing-Momspresso-advertise.jpg?tr=w-520) top center no-repeat;
+  transition: all 3s;
+  
+}
+
+.img6:hover > .right {
+  transform: scale(1.2,1.2); 
+     
+}
+.img6:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+
+}
+
+.bottom{
+  width: 743px;
+  float: left;
+  margin-left: 25px;
+}
+
+.img7{
+  width: 516px;
+  height: 200px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin: 25px 0 0 0px;
+}
+
+.img7 > .btm{
+  width: 516px;
+  height: 200px;
+  position: relative;
+  float: left;
+  background: url(https://static.momspresso.com/parenting-images/advertise/Direct-to-Customer.jpg?tr=w-520) top center no-repeat;
+  transition: all 3s;
+  
+  }
+
+.img7:hover > .btm {
+    transform: scale(1.2,1.2); 
+       
+  }
+.img7:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+  
+  }
+
+.img8{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin: 25px 0 0 25px;
+}
+.img8 > .btm1{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  float: left;
+  background: url(https://static.momspresso.com/parenting-images/advertise/Review-testimonials-Momspresso-advertise.jpg?tr=h-350) top center no-repeat;
+  transition: all 3s;
+  
+}
+
+.img8:hover > .btm1 {
+  transform: scale(1.2,1.2); 
+     
+}
+.img8:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+
+}
 
