@@ -415,3 +415,21 @@ span{
 
 }
 
+.other-solution section{
+  border: 1px solid #DEDEDE;
+  padding: 0 10px 0 0;
+  color: #9299A5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  display: block;
+  margin-top: 15px;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  right: 5px;
+  width: 230px;
+  height: 238px;
+  margin-bottom: 70px;
+  
+}
+
