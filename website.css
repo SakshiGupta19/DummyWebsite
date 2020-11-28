@@ -444,4 +444,9 @@ span{
   padding: 10px;
 }
 
+.space{
+  height: 10px;
+  clear: both;
+}
+
 
