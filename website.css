@@ -1,452 +1,439 @@
-body{
-  margin: 0;
-  }
-  
-#menu{
-  float: right;
-  font-size: 17px;
-  margin-top: 10px;
-   
-}
-  
-#text1{
-  color:#535B6D;
-}
-  
-#text1:hover{
-  color:#D54058;
-}
-  
-#menu > ul > li {
-  position: relative;
-  float:right;
-  padding: 0 10px;
-      list-style: none;
-      
-}
-    
-#menu > ul > li + li:after {
-  content: "";
-  background: #ccc;
-  position: absolute;
-  bottom: 25%;
-  left: 0;
-  height: 50%;
-  width: 1px;
-}
-  
-  
-.img1{
-  width: 200px;
-}
-  
-.logo{
-  width: 150px;
+body {
+    margin: 0;
 }
 
-.display{
-  margin-right: 12px;
-  list-style: none;
-  color: #b2b3b6;
-  font-weight: bold;
-  font-size: 15px;
-  text-decoration: none;
-  letter-spacing: -1px;
+#menu {
+    float: right;
+    font-size: 17px;
+    margin-top: 10px;
 }
 
-.display li :hover{
-  color: #c8435a;
-}
-  
-.display li{
-  margin-top: 10px;
-}
-  
-.display li a{
-  color: #a8a8a8;
-}
-  
-.container{
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px; 
-  margin-right: auto;
-  margin-left: auto;
-}
-  
-.mobinav{
-  border-bottom: 1px solid #dfdfdf;
-  height: 100px;
-}
-  
-.brand2{
-  border-bottom: 1px solid #dfdfdf;
-  
-}
-  
-.main{
-  background-image: url(https://static.momspresso.com/parenting-images/advertise/header_bg.jpg);
-  width: 100%;
-  background-repeat: no-repeat;
-  height: 600px;
-  background-size: 100%;
-}
-  
-.text{
-  padding-top: 180px;
-    
-}
-  
-.text h1{
-  font-size: 45px;
-  font-weight: bolder;
-  margin-bottom: 15px;
-  color: #535B6D;
+#text1 {
+    color: #535B6D;
 }
 
-.text h6{
-  letter-spacing: 1.5px;
-  color: #8a8a8a;
-  margin-bottom: 20px;
-}
-  
-  
-.text button{
-  background-color: #D54058;
-  padding: 10px 30px;
-  border-radius: 100px;
-  border: none;
-  color: white;
-}
-  
-  
-.about p{
-  padding-top: 10px;
-  font-size: 20px;
-  padding-top: 10px;
-  color: #5a5a5a;
-  font-family: 'Times New Roman', Times, serif;
-}
-  
-.important{
-  font-family: 'Times New Roman', Times, serif;
-  color: #535B6D;
-}
-  
-.hr{
-  background-color: #c8435a;
-  height: 5px;
-  width: 80px;
-  border: 0;
-  
-}
-  
-.section{
-  margin-top: 20px;
-}
-  
-.box{
-  height: 50px;
-  width: 50px;
-  background-color: #F1992C;
-  color: white;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  float: left;
-  text-align: center;
-  padding-top: 10px;
-  margin-right: 10px;
+#text1:hover {
+    color: #D54058;
 }
 
-span{
-  font-size: 13px;
+#menu>ul>li {
+    position: relative;
+    float: right;
+    padding: 0 10px;
+    list-style: none;
 }
 
-.title{
-  color: #5a5a5a;
-  padding-top: 15px;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+#menu>ul>li+li:after {
+    content: "";
+    background: #ccc;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    height: 50%;
+    width: 1px;
 }
 
-.txt{
-  color: #7c7c7c;
-  font-size: 13px;
-  padding-top: 10px;
-  margin-bottom: 20px;
+.img1 {
+    width: 200px;
 }
 
-.pink{
-  background-color: #F24C7B;
-  
-}
-.purple{
-  background-color: #734BEC;
-  
-}
-.blue{
-  background-color: #50E3C2;
-  
+.logo {
+    width: 150px;
 }
 
-.brand-solutions{
-  width: 100%;
-  display: inline-block;
-  margin-top: 25px;
-  cursor: pointer;
-  
+.display {
+    margin-right: 12px;
+    list-style: none;
+    color: #b2b3b6;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: -1px;
 }
 
-.mobibrand{
-  width: 100%;
-  display: inline-block;
-  margin-top: 25px;
-  cursor: pointer;
+.display li :hover {
+    color: #c8435a;
 }
 
-.mobiright{
-  width: 200px;
-  float: left;
-}
-.left{
-  width: 200px;
-  float: left;
+.display li {
+    margin-top: 10px;
 }
 
-.img2{
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  display: block;
-  position: relative;
-  padding: 0;
+.display li a {
+    color: #a8a8a8;
 }
 
-.img2 > .top {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  float: left;
-  background: url(https://static.momspresso.com/parenting-images/advertise/Momspresso-Studio.jpg?tr=w-400) top center no-repeat;
-  transition: all 3s;
-  
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.img2:hover > .top {
-  transform: scale(1.2,1.2); 
-     
-}
-.img2:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+.mobinav {
+    border-bottom: 1px solid #dfdfdf;
+    height: 100px;
 }
 
-.img3{
-  width: 200px;
-  height: 350px;
-  position: relative;
-  overflow: hidden;
-  display: block;
-  margin-top: 25px;
+.brand2 {
+    border-bottom: 1px solid #dfdfdf;
 }
 
-.img3 >.top1{
-  width: 200px;
-  height: 350px;
-  position: relative;
-  float: left;
-  background: url(https://static.momspresso.com/parenting-images/advertise/Research-insights-Momspresso-advertise.jpg?tr=h-350) top center no-repeat;
-  transition: all 3s;
-  
+.main {
+    background-image: url(https://static.momspresso.com/parenting-images/advertise/header_bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
 }
 
-.img3:hover > .top1 {
-  transform: scale(1.2,1.2); 
-     
-}
-.img3:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-
+.text {
+    padding-top: 180px;
 }
 
-.middle{
-  width: 200px;
-  float: left;
-}
-.img4{
-  width: 210px;
-  height: 150px;
-  overflow: hidden;
-  display: block;
-  margin-left: 25px;
-  float: left;
+.text h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: #535B6D;
 }
 
-.img4 > .mid{
-  width: 210px;
-  height: 150px;
-  position: relative;
-  background: url(https://static.momspresso.com/parenting-images/advertise/On-ground-activation.jpg?tr=w-300) top center no-repeat;
-  transition: all 3s;
-  
+.text h6 {
+    letter-spacing: 1.5px;
+    color: #8a8a8a;
+    margin-bottom: 20px;
 }
 
-.img4:hover > .mid {
-  transform: scale(1.2,1.2); 
-     
-}
-.img4:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-
-}
-.img5{
-  width: 210px;
-  height: 175px;
-  margin-top: 25px;
-  overflow: hidden;
-  display: block;
-  margin-left: 25px;
-  float: left;
+.text button {
+    background-color: #D54058;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    color: white;
 }
 
-.img5 > .mid1 {
-  width: 210px;
-  height: 175px;
-  position: relative;
-  background: url(https://static.momspresso.com/parenting-images/advertise/Branded-Content%20Advocacy-Momspresso-advertise.jpg?tr=w-300) top center no-repeat;
-  transition: all 3s;
-  
-}
-.img5:hover > .mid1 {
-  transform: scale(1.2,1.2); 
-     
-}
-.img5:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-
+.about p {
+    padding-top: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #5a5a5a;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.img6{
-  width: 508px;
-  height: 350px;
-  overflow: hidden;
-  display: block;
-  float: left;
-  margin-left: 60px;
+.important {
+    font-family: 'Times New Roman', Times, serif;
+    color: #535B6D;
 }
 
-.img6 > .right{
-  width: 508px;
-  height: 350px;
-  position: relative;
-  float: left;
-  background: url(https://static.momspresso.com/parenting-images/advertise/Influencer-marketing-Momspresso-advertise.jpg?tr=w-520) top center no-repeat;
-  transition: all 3s;
-  
+.hr {
+    background-color: #c8435a;
+    height: 5px;
+    width: 80px;
+    border: 0;
 }
 
-.img6:hover > .right {
-  transform: scale(1.2,1.2); 
-     
-}
-.img6:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-
+.section {
+    margin-top: 20px;
 }
 
-.bottom{
-  width: 743px;
-  float: left;
-  margin-left: 25px;
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: #F1992C;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
 }
 
-.img7{
-  width: 516px;
-  height: 200px;
-  overflow: hidden;
-  display: block;
-  float: left;
-  margin: 25px 0 0 0px;
+span {
+    font-size: 13px;
 }
 
-.img7 > .btm{
-  width: 516px;
-  height: 200px;
-  position: relative;
-  float: left;
-  background: url(https://static.momspresso.com/parenting-images/advertise/Direct-to-Customer.jpg?tr=w-520) top center no-repeat;
-  transition: all 3s;
-  
-  }
-
-.img7:hover > .btm {
-    transform: scale(1.2,1.2); 
-       
-  }
-.img7:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-  
-  }
-
-.img8{
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  display: block;
-  float: left;
-  margin: 25px 0 0 25px;
-}
-.img8 > .btm1{
-  width: 200px;
-  height: 200px;
-  position: relative;
-  float: left;
-  background: url(https://static.momspresso.com/parenting-images/advertise/Review-testimonials-Momspresso-advertise.jpg?tr=h-350) top center no-repeat;
-  transition: all 3s;
-  
+.title {
+    color: #5a5a5a;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.img8:hover > .btm1 {
-  transform: scale(1.2,1.2); 
-     
-}
-.img8:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-
+.txt {
+    color: #7c7c7c;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
-.other-solution section{
-  border: 1px solid #DEDEDE;
-  padding: 0 10px 0 0;
-  color: #9299A5;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  display: block;
-  margin-top: 15px;
-  text-align: left;
-  overflow: hidden;
-  position: relative;
-  right: 5px;
-  width: 230px;
-  height: 238px;
-  margin-bottom: 70px;
-  
+.pink {
+    background-color: #F24C7B;
 }
 
-.other-solution section:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-
-
-}
-.abt{
-  width: 106%;
-  float: left;
-  padding: 10px;
+.purple {
+    background-color: #734BEC;
 }
 
-.space{
-  height: 10px;
-  clear: both;
+.blue {
+    background-color: #50E3C2;
 }
 
+.brand-solutions {
+    width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+    cursor: pointer;
+}
 
+.mobibrand {
+    width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.mobiright {
+    width: 200px;
+    float: left;
+}
+
+.left {
+    width: 200px;
+    float: left;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 0;
+}
+
+.img2>.top {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+    background: url(https://static.momspresso.com/parenting-images/advertise/Momspresso-Studio.jpg?tr=w-400) top center no-repeat;
+    transition: all 3s;
+}
+
+.img2:hover>.top {
+    transform: scale(1.2, 1.2);
+}
+
+.img2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img3 {
+    width: 200px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-top: 25px;
+}
+
+.img3>.top1 {
+    width: 200px;
+    height: 350px;
+    position: relative;
+    float: left;
+    background: url(https://static.momspresso.com/parenting-images/advertise/Research-insights-Momspresso-advertise.jpg?tr=h-350) top center no-repeat;
+    transition: all 3s;
+}
+
+.img3:hover>.top1 {
+    transform: scale(1.2, 1.2);
+}
+
+.img3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle {
+    width: 200px;
+    float: left;
+}
+
+.img4 {
+    width: 210px;
+    height: 150px;
+    overflow: hidden;
+    display: block;
+    margin-left: 25px;
+    float: left;
+}
+
+.img4>.mid {
+    width: 210px;
+    height: 150px;
+    position: relative;
+    background: url(https://static.momspresso.com/parenting-images/advertise/On-ground-activation.jpg?tr=w-300) top center no-repeat;
+    transition: all 3s;
+}
+
+.img4:hover>.mid {
+    transform: scale(1.2, 1.2);
+}
+
+.img4:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img5 {
+    width: 210px;
+    height: 175px;
+    margin-top: 25px;
+    overflow: hidden;
+    display: block;
+    margin-left: 25px;
+    float: left;
+}
+
+.img5>.mid1 {
+    width: 210px;
+    height: 175px;
+    position: relative;
+    background: url(https://static.momspresso.com/parenting-images/advertise/Branded-Content%20Advocacy-Momspresso-advertise.jpg?tr=w-300) top center no-repeat;
+    transition: all 3s;
+}
+
+.img5:hover>.mid1 {
+    transform: scale(1.2, 1.2);
+}
+
+.img5:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img6 {
+    width: 508px;
+    height: 350px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-left: 60px;
+}
+
+.img6>.right {
+    width: 508px;
+    height: 350px;
+    position: relative;
+    float: left;
+    background: url(https://static.momspresso.com/parenting-images/advertise/Influencer-marketing-Momspresso-advertise.jpg?tr=w-520) top center no-repeat;
+    transition: all 3s;
+}
+
+.img6:hover>.right {
+    transform: scale(1.2, 1.2);
+}
+
+.img6:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottom {
+    width: 743px;
+    float: left;
+    margin-left: 25px;
+}
+
+.img7 {
+    width: 516px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin: 25px 0 0 0px;
+}
+
+.img7>.btm {
+    width: 516px;
+    height: 200px;
+    position: relative;
+    float: left;
+    background: url(https://static.momspresso.com/parenting-images/advertise/Direct-to-Customer.jpg?tr=w-520) top center no-repeat;
+    transition: all 3s;
+}
+
+.img7:hover>.btm {
+    transform: scale(1.2, 1.2);
+}
+
+.img7:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img8 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin: 25px 0 0 25px;
+}
+
+.img8>.btm1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    background: url(https://static.momspresso.com/parenting-images/advertise/Review-testimonials-Momspresso-advertise.jpg?tr=h-350) top center no-repeat;
+    transition: all 3s;
+}
+
+.img8:hover>.btm1 {
+    transform: scale(1.2, 1.2);
+}
+
+.img8:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.other-solution section {
+    border: 1px solid #DEDEDE;
+    padding: 0 10px 0 0;
+    color: #9299A5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    right: 5px;
+    width: 230px;
+    height: 238px;
+    margin-bottom: 70px;
+}
+
+.other-solution section:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.abt {
+    width: 106%;
+    float: left;
+    padding: 10px;
+}
+
+.space {
+    height: 10px;
+    clear: both;
+}
+
+.info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #303030;
+    font-size: 14px;
+    float: left;
+    letter-spacing: 0.1px;
+}
