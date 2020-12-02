@@ -437,3 +437,12 @@ span {
     float: left;
     letter-spacing: 0.1px;
 }
+
+.info p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #303030;
+    font-size: 14px;
+    float: left;
+    letter-spacing: 0.1px;
+}
